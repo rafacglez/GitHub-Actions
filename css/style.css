@@ -1,0 +1,55 @@
+/* Reset some default styles */
+img {
+  border-radius: 50%;
+  border: 5px solid #4ab6e0 !important;
+  margin-top: 16px;
+  width: 250px;
+  max-width: 100%;
+}
+
+.img {
+  text-align: center;
+}
+
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Set a background image for the entire page */
+body {
+  background-image: url("../rafael_img/background_img.jpeg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  /* Style the header and navigation */
+  /* Style sections */
+}
+body header {
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background to improve readability */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+body nav ul {
+  display: flex;
+  justify-content: center;
+}
+body nav li {
+  margin: 0 15px;
+}
+body nav a {
+  color: #fff;
+}
+body section {
+  background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent white background to improve readability */
+  padding: 50px;
+}
+body main {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  inline-size: 400px;
+  overflow-wrap: break-word;
+}/*# sourceMappingURL=style.css.map */
